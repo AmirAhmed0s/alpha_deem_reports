@@ -11,8 +11,6 @@ from frappe.utils import add_days, flt, get_datetime, get_time, get_url, nowtime
 
 from erpnext.controllers.queries import get_filters_cond
 from erpnext.hr.doctype.daily_work_summary.daily_work_summary import get_users_email
-from erpnext.hr.doctype.holiday_list.holiday_list import is_holiday
-
 
 class Project(Document):
 	def get_feed(self):
