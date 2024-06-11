@@ -10,7 +10,7 @@ from frappe.model.document import Document
 from frappe.utils import add_days, flt, get_datetime, get_time, get_url, nowtime, today, date_diff
 
 from erpnext.controllers.queries import get_filters_cond
-from erpnext.hr.doctype.daily_work_summary.daily_work_summary import get_users_email
+from hrms.hr.doctype.daily_work_summary.daily_work_summary import get_users_email
 
 class Project(Document):
 	def get_feed(self):
